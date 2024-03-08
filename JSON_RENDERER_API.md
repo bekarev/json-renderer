@@ -18,6 +18,7 @@
 ```
 {
    "type": "HEADER",
+   "title": "Header title",
    "sections": [
       {
          "title": "Link title",
