@@ -1,5 +1,5 @@
 ### JSON Input Structure
-```json
+```
 {
    "contentData": Array<Block>
 }
@@ -7,7 +7,7 @@
 ```
 
 ### Block Structure
-```json
+```
 {
    "type": "HEADER" | "POSTS" | "GALLERY" | "FORM" | "FOOTER",
    ...typeSpecificProps,
@@ -15,7 +15,7 @@
 ```
 
 ### Type Specific Props
-```json
+```
 {
    "type": "HEADER",
    "sections": [
@@ -29,7 +29,7 @@
 // and only the first header will be displayed.
 // The header is always displayed at the top of the page
 ```
-```json
+```
 {
    "type": "FOOTER",
    "title": "Footer",
@@ -40,7 +40,7 @@
 // and only the first footer will be displayed.
 // The footer is always displayed at the bottom of the page
 ```
-```json
+```
 {
    "type": "POSTS",
    "posts": [
@@ -50,7 +50,7 @@
 // Learn more about markdown syntax
 // https://daringfireball.net/projects/markdown/syntax
 ```
-```json
+```
 {
    "type": "GALLERY",
    "images": [
@@ -65,7 +65,7 @@
    ]
 }
 ```
-```json
+```
 {
    "type": "FORM",
    "fields": [
